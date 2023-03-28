@@ -1,7 +1,13 @@
+/**
+ * Get a list of students.
+ *
+ * @param {Array} list - The list of students.
+ * @return {Array} - The list of students.
+ */
 export default function getListStudents() {
   return [
-    { id: 1, firstName: 'Guillaume', location: 'San Francisco' },
-    { id: 2, firstName: 'James', location: 'Columbia' },
-    { id: 5, firstName: 'Serena', location: 'San Francisco' },
+    {id: 1, firstName: 'Guillaume', location: 'San Francisco'},
+    {id: 2, firstName: 'James', location: 'Columbia'},
+    {id: 5, firstName: 'Serena', location: 'San Francisco'},
   ];
 }
